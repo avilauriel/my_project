@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+  font-style: italic;
+  font-variant: small-caps;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  font-variant: small-caps;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+nav li {
+    list-style-type: none;
+  
+    display: inline-block;
+    padding: 10px;
+  }
+
+nav {
+  text-align: center;
+}
+/* #2 Overwiting element default styling*/
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: larger;
+}
+
+
+}
+/*#3 Sizing*/
+header img {
+  width: 960px;
+  height: 320px;
+}
+
+article img {
+  width: 400px;
+  height: 350px;
+}
+/* #4 Positioning*/
+.activity-image {
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+/* #5 Spacing*/
+nav ul {
+  padding: 0;
+}
+
+
+.activity img {
+  margin-right: 10px;
+}
+
+.activity li {
+    list-style-position: inside;
+}
+
+.activity-description li {
+  list-style-position: inside;
+}
+
+.experience input[type="text"] .experience input[type="email"],
+.experience textarea {
+  width: 100%;
+
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+.experience {
+    margin-bottom: 20px;
+}
+
+/* #6 Centering the webpage*/
+
+.center {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* #7 Pseudo-classes Web link interaction*/
+
+/* unvisited link */
+nav a:link {
+  color: black;
+}
+
+/* visited link */
+nav a:visited {
+  color: black;
+}
+
+/* mouse over link */
+nav a:hover {
+  color: blue;
+}
+
+/* selected link */
+nav a:active {
+  color: gray;
+}
